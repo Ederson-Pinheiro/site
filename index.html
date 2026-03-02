@@ -47,10 +47,43 @@
     </section>
 
     <footer>
-        <p>Direitos reservados a Ederson Pinheiro e a Jessica Pinheiro</p>
+        <p>Direitos reservados a Ederson Pinheiro</p>
         <section id="contatos">
             <h2>CONTATOS</h2>
             <p>Tem algum projeto em mente? Posso te ajudar isso. Entre em contato.</p>
+
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rolws="5" required></textarea>
+                <br>
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+                <br>
+                <label for="birthdaytime">Data e Hora: </label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            </form>
 
             <address>
                 email: <a href="mailto:edersonpin15@gmail.com">edersonpin15@gmail.com</a><br>
